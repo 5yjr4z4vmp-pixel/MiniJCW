@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini F56 JCW – Maintenance Ultime</title>
+<link rel="manifest" href="manifest.json">
+<style>
+body { margin:0; font-family:-apple-system, Arial; background:#111; color:#fff; }
+header { background:#b30000; padding:16px; text-align:center; font-weight:bold; font-size:20px; }
+nav { display:flex; background:#1a1a1a; }
+nav button { flex:1; padding:14px; border:none; background:none; color:#fff; font-size:16px; }
+nav button.active { background:#b30000; }
+.section { padding:16px; }
+.card { background:#1e1e1e; border-radius:10px; padding:14px; margin-bottom:12px; }
+.card h3 { margin:0 0 6px; }
+.small { color:#aaa; font-size:14px; }
+input, input[type=date] { width:100%; padding:8px; margin-top:6px; border-radius:6px; border:none; }
+button { width:100%; margin-top:6px; background:#b30000; color:#fff; padding:10px; border:none; border-radius:6px; font-weight:bold; cursor:pointer; }
+.status { font-weight:bold; margin-top:4px; }
+.status.vert { color:#0f0; }
+.status.orange { color:#ffa500; }
+.status.rouge { color:#ff4444; }
+ul, ol { padding-left:20px; }
+a { color:#b30000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.photos img { width:100%; margin:4px 0; border-radius:8px; }
+</style>
+</head>
+<body>
+
+<header>Mini F56 JCW – Maintenance Ultime</header>
+
+<nav>
+  <button id="btn-maintenance" class="active" onclick="show('maintenance')">Maintenance</button>
+  <button id="btn-tutos" onclick="show('tutos')">Tutos</button>
+</nav>
+
+<div id="maintenance" class="section"></div>
+<div id="tutos" class="section" style="display:none;"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
