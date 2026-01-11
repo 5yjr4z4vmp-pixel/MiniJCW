@@ -1,0 +1,9 @@
+{
+  "name": "Mini F56 JCW – Maintenance Ultime",
+  "short_name": "Mini F56 Ultime",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#b30000",
+  "lang": "fr"
+}
